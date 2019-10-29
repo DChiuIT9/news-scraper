@@ -131,6 +131,13 @@ app.post("/articles/:id", function(req, res) {
     });
 });
 
+// app.delete("/clear", function(){
+//     db.Article.destroy({})
+//     .then(function(data){
+//         res.json(data);
+//     });
+// })
+
 // Start the server
 app.listen(PORT, function() {
   console.log("App running on port " + PORT + "!");
